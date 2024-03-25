@@ -1,0 +1,71 @@
+.headerAndIcons {
+  display: flex;
+  justify-content: space-between;
+}
+.headerAndIcons .logoAndInput {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.headerAndIcons .logoAndInput .logoName {
+  font-size: 3rem;
+}
+.headerAndIcons .logoAndInput .inputWrapper {
+  border-radius: 2rem;
+  height: 4rem;
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 1rem 4rem 1rem 1rem;
+  position: relative;
+  background-color: #dadadd;
+}
+.headerAndIcons .logoAndInput .inputWrapper .input {
+  font-size: 1.5rem;
+  font-weight: 500;
+  width: inherit;
+  outline: none;
+  background-color: #dadadd;
+}
+.headerAndIcons .logoAndInput .inputWrapper .searchIconWrp {
+  position: absolute;
+  right: 2rem;
+}
+.headerAndIcons .logoAndInput .inputWrapper .searchIconWrp .searchIcon {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.headerAndIcons .iconsWrapper {
+  display: flex;
+  gap: 3rem;
+}
+.headerAndIcons .iconsWrapper .accountIconWrp {
+  /* height: inherit; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  /* width: 5rem; */
+}
+.headerAndIcons .iconsWrapper .accountIconWrp .accountIcon {
+  height: 4rem;
+  width: 3.5rem;
+}
+.headerAndIcons .iconsWrapper .cartIconWrp {
+  /* height: inherit; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  /* width: 5rem; */
+}
+.headerAndIcons .iconsWrapper .cartIconWrp .cartIcon {
+  height: 4rem;
+  width: 3.5rem;
+}
+.headerAndIcons .iconsWrapper .cartIconWrp,
+.accountIconWrp .text {
+  font-size: 2rem;
+}

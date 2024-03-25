@@ -3,4 +3,5 @@
 @import "tailwindcss/utilities";
 html {
   font-size: 62.5%;
+  margin: 2rem;
 }

@@ -1,0 +1,36 @@
+.popupWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popupWrapper .popupWrp {
+  width: 50rem;
+  background-color: white;
+}
+.popupWrapper .popupWrp .nameAndBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.popupWrapper .popupWrp .nameAndBtn .popupName {
+  font-size: 2.5rem;
+}
+.popupWrapper .popupWrp .nameAndBtn .closeIconWrp {
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  right: 0;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.popupWrapper .popupWrp .nameAndBtn .closeIconWrp .closeIcon {
+  height: 100%;
+  width: 100%;
+}
